@@ -19,6 +19,20 @@ h6 {
   margin: 0 0 $small-spacing;
 }
 
+h1 {
+  color: lighten($base-font-color, 10%);
+  font-size: $base-font-size * 1.5;
+}
+
+h2 {
+  font-style: italic;
+  color: lighten($base-font-color, 35%);
+}
+
+h1 {
+  margin: 0.2em 0;
+}
+
 p {
   margin: 0 0 $small-spacing;
 }

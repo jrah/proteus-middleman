@@ -14,6 +14,12 @@ for projects that may end up as a Ruby on Rails app. Its minimalistic structure
 makes it very easy to work with, and includes support for deploying to Github
 Pages.
 
+## JRAH Edits
+
+1. I altered Bourbon to remove annoying styling and dereferenced Neat
+2. Added holder.js, may use bower in the future
+3. Added some sample haml parts, in addition to a sample partial (erb file)
+
 ## Includes
 
 * [HAML](http://haml.info):
@@ -39,7 +45,7 @@ We also recommend [Refills](http://refills.bourbon.io/) for prepackaged interfac
 
 Set up your project in your code directory
 ```
-git clone git@github.com:thoughtbot/proteus-middleman.git your-project-folder
+git clone git@github.com:jrah/proteus-middleman.git your-project-folder
 cd your-project-folder
 git remote rm origin
 git remote add origin your-git-url
