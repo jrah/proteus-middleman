@@ -4,7 +4,6 @@
 @import "base/base";
 @import "neat";
 
-@import "global";
 
 $sm: 72em;
 $lg: $sm + 1;
@@ -14,3 +13,5 @@ $lg: $sm + 1;
 	@include hide-text;
 }
 
+@import 
+		"partial/index";
