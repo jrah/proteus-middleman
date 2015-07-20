@@ -17,6 +17,8 @@ end
 configure :build do
   # Relative assets needed to deploy to Github Pages
   activate :relative_assets
+  activate :minify_CSS
+  activate :minify_JavaScript
 end
 
 activate :deploy do |deploy|
